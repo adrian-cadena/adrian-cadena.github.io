@@ -1,0 +1,221 @@
+*{
+    margin : 0%;
+    padding : 0%;
+}
+body{
+    background: #b9bcbe;
+}
+#frame6{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+    position: absolute;
+    width: 0px;
+    height: 48px;
+    left: 30px;
+    top: 20px;
+}
+#muñeco{
+    display: none;
+}
+#logo{
+    width: 120px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#vector{
+    position: absolute;
+    left: 36.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+}
+#text_encript{
+    position: absolute;
+    width: 320px;
+    height: 48px;
+    left: 70px;
+    top: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background-color: #b9bcbe;
+}
+aside{
+    width: 300px;
+    height: 150px;
+    left: 45px;
+    top: 630px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 20%);
+}
+#encrip{
+    position: absolute;
+    width: 270px;
+    height: 130px;
+    left: 15px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #495057;
+}
+#codificado{
+    width: 28px;
+    height: 200px;
+    font-size: 19px;
+    color: #051f3f;
+    display: none;
+    border: none;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+#caja_lateral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    position: absolute;
+    width: 280px;
+    height: 122px;
+    left: 10px;
+    top: 15px;
+}
+#caja_lat1{
+    width: 280px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 280%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#caja_lat2{
+    width: 280px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#tboton3{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 150px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #0A3871;
+    flex-grow: 1;
+    visibility: hidden;
+    left: -10px;
+}
+#tboton3:hover{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 150px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 22px;
+    color: #042145;
+    background-color: #dedede;
+    flex-grow: 1;
+    left: -10px;
+}
+#frame3{
+    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 45px;
+    top: 500px;
+}
+#tboton1{
+    border: none;
+    font-family: 'Inter';
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    height: 50px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex-grow: 0;
+    margin: 0px 0px 15px 0px;
+}
+#tboton1:hover{
+    border: none;
+    font-family: 'Inter';
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    height: 50px;
+    background: #051f3f;
+    border-radius: 24px;
+    flex-grow: 0;
+}
+#tboton2{ 
+    text-align: center;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #0A3871;
+    width: 300px;
+    height: 50px;
+    flex-grow: 1;
+}
+#tboton2:hover{ 
+    text-align: center;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-size: 22px;
+    color: #042145;
+    background-color: #dedede;
+    width: 300px;
+    height: 50px;
+    flex-grow: 1;
+}
+footer{
+    font-family: 'Inter';
+    color: #0A3871;
+    position: absolute;
+    left: 25px;
+    top: 860px;
+    font-size: 12px;
+}

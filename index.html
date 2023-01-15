@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width: 391px)" href="adaptablestyle.css">
+    <script src="script.js"></script>
+    <title>Challenge Encriptador Alura</title>
+</head>
+<body>
+
+    <div id="frame6">
+        <div id="logo">
+            <img src="imagenes/Vector.png" alt="icono de alura" id="vector">
+        </div>
+    </div>
+
+    <main>
+        <div>
+            <input type="text" id="text_encript" placeholder="Escribe texto a encriptar">
+        </div>
+        <div id="frame3">
+            <input type="button" value="Encriptar" onclick="encriptar()" id="tboton1">
+            <input type="button" value="Desencriptar" onclick="desencriptar()" id="tboton2">
+        </div>
+    </main>
+
+    <aside>
+        <div id="encrip">
+            <img src="imagenes/Muñeco.png" alt="imagen" id="muñeco">
+            <p id="codificado"></p>
+        </div>
+        </div>
+        <div id="caja_lateral">
+            <p id="caja_lat1">Ningun mensaje fue encontrado</p>
+            <p id="caja_lat2">Ingresa el texto que deseas encriptar o desencriptar. No encriptara numeros ni caracteres especiales</p>
+            <input type="button" value="Copiar" onclick="copiar()" id="tboton3">
+        </div>
+    </aside>
+
+</body>
+<footer>
+    &copy;<a href="https://www.linkedin.com/in/adrián-cadena-cárdenas/" target="_blank">By Adrian</a> | <a href="https://www.oracle.com/mx/" target="_blank">Oracle</a> | <a href="https://www.aluracursos.com" target="_blank">AluraLatam</a> | Challenge ONE 2023
+</footer>
+</html>
